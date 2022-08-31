@@ -15,4 +15,8 @@ fi
 
 python -m PyInstaller contests.py >/dev/null 2>&1
 
-cd dist && zip -rq9 contests.zip contests && mv contests.zip ..
+cd dist && zip -rq9 contests.zip contests
+
+echo " move dist/contests.zip archive into"
+echo " current directory using following command"
+echo "     mv dist/contests.zip ."
