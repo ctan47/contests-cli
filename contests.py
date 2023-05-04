@@ -69,7 +69,7 @@ def get_codechef_contests() -> list[ContestData]:
         "sorting_order": "asc",
     }
 
-    contests_list = []
+    contests_list = []  #Created List 
 
     response = requests.get(URL, params=payload)
 
